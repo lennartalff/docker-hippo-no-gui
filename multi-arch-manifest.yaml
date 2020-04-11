@@ -1,15 +1,15 @@
-image: lennartalff/hippo-base:latest
+image: lennartalff/hippo-no-gui:latest
 manifests:
-  - image: lennartalff/hippo-base:amd64
+  - image: lennartalff/hippo-no-gui:amd64
     platform:
       architecture: amd64
       os: linux
-  - image: lennartalff/hippo-base:arm32v7
+  - image: lennartalff/hippo-no-gui:arm32v7
     platform:
       architecture: arm
       os: linux
       variant: v7
-  - image: lennartalff/hippo-base:arm64v8
+  - image: lennartalff/hippo-no-gui:arm64v8
     platform:
       architecture: arm64
       os: linux
